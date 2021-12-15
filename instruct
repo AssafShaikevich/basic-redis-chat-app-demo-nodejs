@@ -1,0 +1,27 @@
+Platform prodcuts
+
+Certificate managment - operator certmanager
+Ingress controller - per namespace ( API Gateway ) - operator nginx/HAproxy
+Elasticsearch as a service - operator elastic search
+Consul - operator / helm chart
+KAFKA - opertator / helm chart
+
+
+Toolset
+GIT
+ArgoCD
+
+Task ---
+Track A Solution per product and Create a working deployment for
+out platform
+PUT ALL THE CHARTS IN A GIT REPO
+Deploy All charts using ArgoCD
+
+KPI - platform should be deployed per namespace
+
+
+Deployment stages - 
+Deploy operators once! - per cluster using CRD
+
+Namespace deployment -
+Using Custome resrouces
